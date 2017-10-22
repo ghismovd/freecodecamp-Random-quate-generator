@@ -1,0 +1,95 @@
+html {
+  font-size: 10px;
+  height: 100%;
+
+}
+
+
+body {
+    margin:0;     /* This is used to reset any browser-default margins */
+    height:100vh; /* This is needed to overcome a Chrome bug. */
+    width:100vw;  /* As above. */
+}
+
+
+.all{
+	text-align: center;
+	background: url(s.jpg);
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+	#title{
+		margin-bottom: 11%;
+		font-size: 31px;
+		font-style: sans-serif;
+	}
+
+  a{
+  	width: 50px;
+  	position: relative;
+  	height: 30px;
+  	display: block;
+  }
+img{
+	    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+.button{ 
+	background: rgba(20,2,2,.5);
+	width: 50px;
+  }
+
+.who{
+	margin-left: 60%;
+	font-style:italic;
+	font-size: 17px;
+	font-weight:  bold;
+}
+
+.buttons{
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+
+.quoate{
+    width: 58%;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 12px;
+    height: 22%;
+    align-items: center;
+    justify-content: center;
+
+}
+#quoates, h1{
+	transition: 1s;
+	color: black;
+	font-size: 28px;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+@media only screen and (max-width: 600px) {
+    #title {
+    	margin-bottom: 45%;
+    }
+    #quoates {
+    	font-size: 23px;
+    }
+    .buttons{
+    	margin-top: 30%;
+    }
+
+}
+Try it Yourself »
